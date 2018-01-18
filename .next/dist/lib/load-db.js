@@ -66,7 +66,6 @@ exports.default = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.de
                             console.error('Firebase initialization error', err.stack);
                         }
                     }
-
                     return _context.abrupt('return', firebase.database().ref('v0'));
 
                 case 5:
@@ -76,3 +75,4 @@ exports.default = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.de
         }
     }, _callee, _this);
 }));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpYlxcbG9hZC1kYi5qcyJdLCJuYW1lcyI6WyJmaXJlYmFzZSIsImluaXRpYWxpemVBcHAiLCJkYXRhYmFzZVVSTCIsImVyciIsInRlc3QiLCJtZXNzYWdlIiwiY29uc29sZSIsImVycm9yIiwic3RhY2siLCJkYXRhYmFzZSIsInJlZiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztJQUFBOzsyRkFBZSxtQkFBQTtRQUFBO2tFQUFBO2tCQUFBOzZDQUFBO3FCQUFBO29DQUFBO21KQUFBOzZCQUFBOzs4REFBQTtvQ0FBQTs7bURBQUE7b0NBQUE7MkJBQUE7aUhBQUE7NkNBQUE7OzRCQUFBO2lFQUFBOzsyQ0FBQTt1Q0FBQTs7OERBQUE7Z0NBQUE7d0NBQUE7O3dDQUFBOzRDQUFBO3VDQUFBO0FBQUE7MkJBQUE7QUFBQTs7cUJBQ0w7QUFESyx3Q0FHWDs7d0JBQUksQUFDQTtpQ0FBQSxBQUFTO3lDQUFULEFBQXVCLEFBQ04sQUFFcEI7QUFIMEIsQUFDbkI7QUFGUixzQkFJRSxPQUFBLEFBQU8sS0FBSyxBQUNWO0FBQ0E7QUFDQTs0QkFBSSxDQUFDLGlCQUFBLEFBQWlCLEtBQUssSUFBM0IsQUFBSyxBQUEwQixVQUFVLEFBQ3JDO29DQUFBLEFBQVEsTUFBUixBQUFjLGlDQUFpQyxJQUEvQyxBQUFtRCxBQUN0RDtBQUNKO0FBYlU7cURBY0osU0FBQSxBQUFTLFdBQVQsQUFBb0IsSUFkaEIsQUFjSixBQUF3Qjs7cUJBZHBCO3FCQUFBO29DQUFBOztBQUFBO2dCQUFBO0FBQWYiLCJmaWxlIjoibG9hZC1kYi5qcyIsInNvdXJjZVJvb3QiOiJDOi9wcm9qZWN0cy9wZWRyb21hZ2FsaGFlcy5naXRodWIuaW8ifQ==

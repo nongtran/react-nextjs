@@ -34,19 +34,53 @@ var _loadDb2 = _interopRequireDefault(_loadDb);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _this = undefined;
+var _jsxFileName = 'C:\\projects\\pedromagalhaes.github.io\\pages\\index.js?entry',
+    _this = undefined;
 
 var PostLink = function PostLink(props) {
-    return _react2.default.createElement('li', null, _react2.default.createElement(_link2.default, { as: '/p/' + props.id, href: '/post?id=' + props.id }, _react2.default.createElement('a', null, props.title)));
+    return _react2.default.createElement('li', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 6
+        }
+    }, _react2.default.createElement(_link2.default, { as: '/p/' + props.id, href: '/post?id=' + props.id, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 7
+        }
+    }, _react2.default.createElement('a', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 8
+        }
+    }, props.title)));
 };
 
 var Index = function Index(_ref) {
     var stories = _ref.stories;
-    return _react2.default.createElement(_Layout2.default, null, _react2.default.createElement('h1', null, 'Hacker News - Latest'), _react2.default.createElement('ul', null, stories.map(function (story) {
+    return _react2.default.createElement(_Layout2.default, {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 14
+        }
+    }, _react2.default.createElement('h1', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 15
+        }
+    }, 'Hacker News - Latest'), _react2.default.createElement('ul', {
+        __source: {
+            fileName: _jsxFileName,
+            lineNumber: 16
+        }
+    }, stories.map(function (story) {
         return _react2.default.createElement(PostLink, {
             key: story.id,
             id: story.id,
-            title: story.title
+            title: story.title,
+            __source: {
+                fileName: _jsxFileName,
+                lineNumber: 18
+            }
         });
     })));
 };
@@ -90,3 +124,4 @@ Index.getInitialProps = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerat
 }));
 
 exports.default = Index;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6WyJMYXlvdXQiLCJMaW5rIiwibG9hZERCIiwiUG9zdExpbmsiLCJwcm9wcyIsImlkIiwidGl0bGUiLCJJbmRleCIsInN0b3JpZXMiLCJtYXAiLCJzdG9yeSIsImdldEluaXRpYWxQcm9wcyIsImRiIiwiY2hpbGQiLCJvbmNlIiwiaWRzIiwiYWxsIiwidmFsIiwic2xpY2UiLCJzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTyxBQUFZOzs7O0FBQ25CLEFBQU87Ozs7QUFDUCxBQUFPLEFBQVk7Ozs7Ozs7OztBQUVuQixJQUFNLFdBQVcsU0FBWCxBQUFXLFNBQUEsQUFBQyxPQUFEOzJCQUNiLGNBQUE7O3NCQUFBO3dCQUFBLEFBQ0k7QUFESjtBQUFBLEtBQUEsa0JBQ0ksQUFBQyxnQ0FBSyxZQUFVLE1BQWhCLEFBQXNCLElBQU0sb0JBQWtCLE1BQTlDLEFBQW9EO3NCQUFwRDt3QkFBQSxBQUNJO0FBREo7dUJBQ0ksY0FBQTs7c0JBQUE7d0JBQUEsQUFBSTtBQUFKO0FBQUEsYUFISyxBQUNiLEFBQ0ksQUFDSSxBQUFVO0FBSHRCOztBQVFBLElBQU0sUUFBUSxTQUFSLEFBQVEsWUFBQTtRQUFBLEFBQUcsZUFBSCxBQUFHOzJCQUNiLEFBQUM7O3NCQUFEO3dCQUFBLEFBQ0k7QUFESjtBQUFBLEtBQUEsa0JBQ0ksY0FBQTs7c0JBQUE7d0JBQUE7QUFBQTtBQUFBLE9BREosQUFDSSxBQUNBLHlDQUFBLGNBQUE7O3NCQUFBO3dCQUFBLEFBQ0s7QUFETDtBQUFBLGVBQ0ssQUFBUSxJQUFJLGlCQUFBOzZDQUNULEFBQUM7aUJBQ1EsTUFEVCxBQUNlLEFBQ1g7Z0JBQUksTUFGUixBQUVjLEFBQ1Y7bUJBQU8sTUFIWCxBQUdpQjs7MEJBSGpCOzRCQURTLEFBQ1Q7QUFBQTtBQUNJLFNBREo7QUFMRixBQUNWLEFBRUksQUFDSztBQUpiOztBQWVBLE1BQUEsQUFBTSwyRkFBa0IsbUJBQUE7aUJBQUE7a0VBQUE7a0JBQUE7NkNBQUE7cUJBQUE7b0NBQUE7MkJBQUEsQUFDSDs7cUJBQVg7QUFEYyxrQ0FBQTtvQ0FBQTsyQkFHRixHQUFBLEFBQUcsTUFBSCxBQUFTLGNBQVQsQUFBdUIsS0FIckIsQUFHRixBQUE0Qjs7cUJBQXhDO0FBSGMsbUNBQUE7b0NBQUE7NkNBSUEsQUFBUSxRQUN4QixBQUFJLE1BQUosQUFBVSxNQUFWLEFBQWdCLEdBQWhCLEFBQW1CLElBQW5CLEFBQXVCLElBQUksY0FBQTsrQkFBTSxHQUFBLEFBQzVCLE1BRDRCLEFBQ3RCLFFBRHNCLEFBRTVCLE1BRjRCLEFBRXRCLElBRnNCLEFBRzVCLEtBSHNCLEFBQU0sQUFHdkI7QUFSTSxBQUlBLEFBQ2hCLHFCQUFBLENBRGdCOztxQkFBaEI7QUFKZ0IsdUNBWXBCOztzQ0FBVSxBQUFRLElBQUksYUFBQTsrQkFBSyxFQUFMLEFBQUssQUFBRTtBQVpULEFBWXBCLEFBQVUscUJBQUE7O3FEQUVILEVBQUUsU0FkVyxBQWNiOztxQkFkYTtxQkFBQTtvQ0FBQTs7QUFBQTtnQkFBQTtBQUF4QixBQWlCQTs7a0JBQUEsQUFBZSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiJDOi9wcm9qZWN0cy9wZWRyb21hZ2FsaGFlcy5naXRodWIuaW8ifQ==
